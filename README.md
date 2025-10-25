@@ -46,3 +46,59 @@ journey-through-nodejs/
 ├── test.txt
 ├── package.json
 └── .gitignore
+```
+
+## ✅ Features Demonstrated
+
+| Topic | What I Learned |
+|------|----------------|
+| HTTP API Server | Build routes without Express |
+| Middleware | Logger & JSON handling |
+| Request Body Parsing | Manual streaming logic |
+| Filesystems | Read, write, append, async & promises |
+| Crypto | Hashing + encryption |
+| URL & Path | Safe manipulation and formatting |
+| Events | Custom event emitters |
+| Process | env variables & runtime info |
+| OS Module | Machine details from Node |
+
+---
+
+## ▶️ Running the Demos
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run any module demo:
+```bash
+
+node core-demos/fsDemo.js
+node core-demos/pathDemo.js
+node core-demos/eventsDemo.js
+```
+
+## 🌐 Running the API Server
+
+Create a .env file in root:
+
+``` bash
+PORT=5000
+```
+Install dependencies (if any):
+``` bash
+npm install
+```
+Start the server:
+
+``` bash
+node api-server/server.js
+```
+
+Example cURL request:
+
+``` bash
+curl http://localhost:5000/api/users
+```
